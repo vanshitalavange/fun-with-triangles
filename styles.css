@@ -3,12 +3,18 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  
 }
 :root {
     --primary-color: #F87171;
     --link-color:#FCA5A5;
   }
+.main{
+    max-width: 700px;
+    display: block;
+    margin: auto;
 
+}
 .container{
     display: block;
     margin:auto;
@@ -36,7 +42,33 @@ body {
  
  .navigation h1{
      text-align: center;
+     font-weight: bold;
+     font-size:2rem;
  }
+ .type-list{
+    width:45%;
+    text-align: center;
+     display: block;
+     margin: auto;
+    padding:0.5rem;
+    //background-color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    border-radius:0.5rem;
+    margin-bottom:0.5rem;
+
+  }
+  .cont{
+      display: block;
+      margin: auto;
+      margin-left:-2rem;
+      width:100%;
+      margin-bottom:4rem;
+  }
+  .type-list a{
+      color:var(--primary-color);
+      text-decoration: none;
+   
+  }
   
   .navigation .link {
     color: white;
@@ -49,7 +81,7 @@ body {
   }
   
   .hero .hero-img {
-    max-width: 400px;
+    max-width: 250px;
     margin: auto;
     display: block;
   }
