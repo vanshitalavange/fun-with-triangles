@@ -2,18 +2,23 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-   background-color: #E0E7FF;
+   background-color:#FEE2E2;
    max-width:900px;
    display: block;
    margin:auto;
 }
 :root{
-  --primary-color:#5B21B6;
-  --purple-color: #6D28D9;
-  --lightpurple-color:#A78BFA;
-  --button-background:#8B5CF6;
+    --primary-color:#EF4444  ;
+    --purple-color:#F87171;
+    --lightpurple-color:#FECACA;
+    --button-background:#F87171
+ 
  
 }
+.image{
+    margin-top:2rem;
+    
+  }
 h1{
   color:var(--primary-color);
 }
@@ -50,7 +55,7 @@ input{
   border-radius:0.3rem;
   color:white;
   font-weight:bold;
-  font-size:0.8rem;
+  font-size:1rem;
 
 }
 
@@ -58,5 +63,6 @@ input{
   color:black;
   font-size:1.2rem;
   text-align:center;
+  margin-top:1.5rem;
 
 }

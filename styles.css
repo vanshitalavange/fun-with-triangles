@@ -1,62 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-body{
-  font-family: 'Montserrat', sans-serif;
-   background-color: #E0E7FF;
-   max-width:900px;
-   display: block;
-   margin:auto;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
-:root{
-  --primary-color:#5B21B6;
-  --purple-color: #6D28D9;
-  --lightpurple-color:#A78BFA;
-  --button-background:#8B5CF6;
- 
-}
-h1{
-  color:var(--primary-color);
-}
-.container-main{
-  width:50%;
-  margin:10% auto auto auto;
-}
+:root {
+    --primary-color: #F87171;
+    --link-color:#FCA5A5;
+  }
+
 .container{
-  width:100%;
-  margin:2rem auto auto auto;
+    display: block;
+    margin:auto;
+    text-align: center;
 }
-input,label{
-  display: block;
-}
-label{
-  font-weight:bold;
-  color:var(--purple-color);
+  
+  /** links **/
+.heading .heading-img {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+  }
 
-}
-input{
-  margin-bottom:1rem;
-  width:100%;
-  border:1.2px solid var(--lightpurple-color);
-  border-radius:0.3rem;
-  padding:0.5rem 0.5rem;
-}
-
-#is-triangle-btn{
-  display:block;
-  margin:2rem auto auto auto;
-  padding:1rem 1rem;
-  border:1.2px solid var(--button-background);
-  background-color:var(--button-background);
-  border-radius:0.3rem;
-  color:white;
-  font-weight:bold;
-  font-size:0.8rem;
-
-}
-
-#output{
-  color:black;
-  font-size:1.2rem;
-  text-align:center;
-
-}
+  .heading h2{
+      text-align: center;
+      color:var(--primary-color);
+  }
+  
+  .navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 0rem;
+    border-bottom-left-radius: 1rem;
+  }
+ 
+ .navigation h1{
+     text-align: center;
+ }
+  
+  .navigation .link {
+    color: white;
+  }
+  .navigation .link-active {
+    font-weight: bold;
+  }
+  .hero {
+    padding: 3rem;
+  }
+  
+  .hero .hero-img {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+  }
+ 
+  
+  
+  
+  
