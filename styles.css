@@ -3,90 +3,81 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
-  
 }
 :root {
-    --primary-color: #F87171;
-    --link-color:#FCA5A5;
-  }
-.main{
-    max-width: 700px;
-    display: block;
-    margin: auto;
+  --primary-color: #f87171;
+  --link-color: #fca5a5;
+}
+.main {
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+.container {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
-}
-.container{
-    display: block;
-    margin:auto;
-    text-align: center;
-}
-  
-  /** links **/
+/** links **/
 .heading .heading-img {
-    max-width: 400px;
-    margin: auto;
-    display: block;
-  }
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
 
-  .heading h2{
-      text-align: center;
-      color:var(--primary-color);
-  }
-  
-  .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 0.5rem 0rem;
-    border-bottom-left-radius: 1rem;
-  }
- 
- .navigation h1{
-     text-align: center;
-     font-weight: bold;
-     font-size:2rem;
- }
- .type-list{
-    width:45%;
-    text-align: center;
-     display: block;
-     margin: auto;
-    padding:0.5rem;
-    //background-color: var(--primary-color);
-    border:1px solid var(--primary-color);
-    border-radius:0.5rem;
-    margin-bottom:0.5rem;
+.heading h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
 
-  }
-  .cont{
-      display: block;
-      margin: auto;
-      margin-left:-2rem;
-      width:100%;
-      margin-bottom:4rem;
-  }
-  .type-list a{
-      color:var(--primary-color);
-      text-decoration: none;
-   
-  }
-  
-  .navigation .link {
-    color: white;
-  }
-  .navigation .link-active {
-    font-weight: bold;
-  }
-  .hero {
-    padding: 3rem;
-  }
-  
-  .hero .hero-img {
-    max-width: 250px;
-    margin: auto;
-    display: block;
-  }
- 
-  
-  
-  
-  
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 0rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.type-list {
+  width: 45%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  //background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.cont {
+  display: block;
+  margin: auto;
+  margin-left: -2rem;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.type-list a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navigation .link {
+  color: white;
+}
+.navigation .link-active {
+  font-weight: bold;
+}
+.hero {
+  padding: 3rem;
+}
+
+.hero .hero-img {
+  max-width: 250px;
+  margin: auto;
+  display: block;
+}
