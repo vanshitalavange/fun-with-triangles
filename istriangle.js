@@ -12,8 +12,12 @@ function isTriangle() {
     inputs[1].value === "" ||
     inputs[2].value === ""
   ) {
-    outputEl.textContent = "Please enter all 3 angles 🙄";
-  } else {
+    outputEl.textContent = "All the fields are mandatory 🙄";
+  } 
+  else if(Number(inputs[0].value)===0 ||Number(inputs[2].value)===0 ||Number(inputs[2].value)===0){
+    outputEl.textContent = "Value cannot be zero 🙄";
+  }
+  else {
     const sumOfAngles = calculateSumOfAngles(
       Number(inputs[0].value),
       Number(inputs[1].value),
